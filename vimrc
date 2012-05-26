@@ -15,3 +15,5 @@ filetype plugin indent on
 set textwidth=79
 " Activation de la coloration syntaxique
 syntax on
+" Lecture des raccourcis claviers generaux
+execute 'source ' . $HOME . '/.vim/shortkeys.vim'
